@@ -1,0 +1,58 @@
+*{margin: 0px;
+	padding: 0px;}
+body {background-color: #B88A60;
+color: white;}
+
+.navmenu a{text-decoration: none;
+			color: white;
+			padding-left: 25px;}
+
+.navmenu a:hover{color: #C9A888;}			
+
+.navextra a{color: white;
+			padding-left: 25px;}
+.navextra a:hover{color: #C9A888;}			
+
+.navigasi {display: flex;
+			justify-content: space-between;
+			background-color: #3F2D1C;
+			padding: 1.4em 7%;
+			align-items: center;
+			border-bottom: 2px solid #E4D3C3;
+			position: fixed;
+			left: 0px;
+			right: 0px; }
+
+.navigasi a{font-family: poppins;}
+.logo {font-weight: 700;
+	font-size: 30px;
+	font-style: italic;}
+
+.logo span{color: #C9A888}
+
+.hero {display: flex;
+		min-height: 1500px;
+		background-image:url('teh tarik.jpg');
+		background-position: center;
+		background-size: cover;}
+
+.konten h1{font-size: 400; font-family: poppins;
+			padding-top: 250px;
+			padding-left: 750px}
+
+.konten p{padding-left: 750px;
+		font-family: poppins;
+		max-width: 560px}	
+
+.konten a{text-decoration: none;
+		padding-left: 750px;
+		font-weight: 700;
+		font-family: poppins;
+		color: white;
+		display: inline-block;
+		padding: 5px;
+		background-color: #FFB019;
+		margin-left: 780px;
+		border-radius: 8px}			
+
+.konten a:hover{color:red}		
